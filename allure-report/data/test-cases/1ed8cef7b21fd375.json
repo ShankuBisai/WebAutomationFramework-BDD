@@ -1,0 +1,109 @@
+{
+  "uid" : "1ed8cef7b21fd375",
+  "name" : "Verify login with existing email and password",
+  "fullName" : "LoginPage Validation: Verify login with existing email and password",
+  "historyId" : "8430875ead29c9b9ee899b732c846d7b",
+  "time" : {
+    "start" : 1620451199195,
+    "stop" : 1620451212853,
+    "duration" : 13658
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: FAILED SUB-STEP: And User clicks Sign In Button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 47, in userClickSignIn\n    time.sleep(5)\n\n",
+  "statusTrace" : "  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 76, in userLoginDetails\n    context.execute_steps(u\"\"\"\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\runner.py\", line 404, in execute_steps\n    assert False, message\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: FAILED SUB-STEP: And User clicks Sign In Button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 47, in userClickSignIn\n    time.sleep(5)\n\n",
+    "statusTrace" : "  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 76, in userLoginDetails\n    context.execute_steps(u\"\"\"\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\runner.py\", line 404, in execute_steps\n    assert False, message\n",
+    "steps" : [ {
+      "name" : "Given User is on HomePage",
+      "time" : {
+        "start" : 1620451203955,
+        "stop" : 1620451203955,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When User fill the login details",
+      "time" : {
+        "start" : 1620451203955,
+        "stop" : 1620451210806,
+        "duration" : 6851
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: FAILED SUB-STEP: And User clicks Sign In Button\nSubstep info: ABORTED: By user (KeyboardInterrupt).\nTraceback (of failed substep):\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 47, in userClickSignIn\n    time.sleep(5)\n\n",
+      "statusTrace" : "  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 76, in userLoginDetails\n    context.execute_steps(u\"\"\"\n  File \"c:\\users\\bisai\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\behave\\runner.py\", line 404, in execute_steps\n    assert False, message\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Client Home Page is displayed",
+      "time" : {
+        "start" : 1620451212853,
+        "stop" : 1620451212853,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage Validation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "sanity" ]
+  },
+  "source" : "1ed8cef7b21fd375.json",
+  "parameterValues" : [ ]
+}

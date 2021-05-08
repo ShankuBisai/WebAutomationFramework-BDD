@@ -1,4 +1,6 @@
 import logging
+import os
+
 from base.webdriverfactory import WebDriverFactory
 from utilities import custom_logger as cl
 
@@ -17,7 +19,8 @@ def after_feature(context,feature):
 
 def before_scenario(context,scenario):
     print("before scenario")
-    wb = WebDriverFactory("chrome")
+    browser = os.environ.get("browser")
+    wb = WebDriverFactory(browser)
     context.driver = wb.getWebDriverInstance()
     log.info("Browser Opened")
 

@@ -1,14 +1,14 @@
 Feature: LoginPage Validation
 
-#  @smoke
-#  Scenario: Verify Login with Valid Credentials
-#    Given User is on HomePage
-#    When User clicks on the Sign In link
-#    And User enters "shankubisai3333@gmail.com" as email
-#    And User clicks Next Button
-#    And User enters "shanku12345#" as password
-#    And User clicks Sign In Button
-#    Then Client Home Page is displayed
+  @smoke
+  Scenario: Verify Login with Valid Credentials
+    Given User is on HomePage
+    When User clicks on the Sign In link
+    And User enters "shankubisai3333@gmail.com" as email
+    And User clicks Next Button
+    And User enters "shanku12345#" as password
+    And User clicks Sign In Button
+    Then Client Home Page is displayed
 
 
 
@@ -30,12 +30,12 @@ Feature: LoginPage Validation
 
 
 
-#
-#    @smoke @sanity
-#    Scenario: Verify login with existing email and password
-#      Given User is on HomePage
-#      When User fill the login details
-#      Then Client Home Page is displayed
+
+    @smoke @sanity
+    Scenario: Verify login with existing email and password
+      Given User is on HomePage
+      When User fill the login details
+      Then Client Home Page is displayed
 
 
 

@@ -1,0 +1,239 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Verify login with existing email and password",
+    "uid" : "7a3cf4b14fbaeb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464270241,
+      "stop" : 1620464270242,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.2 credentials",
+    "uid" : "d08ba7f85809a2a0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464468673,
+      "stop" : 1620464468679,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai5555@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify login with existing email and password",
+    "uid" : "1ed8cef7b21fd375",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620451199195,
+      "stop" : 1620451212853,
+      "duration" : 13658
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.1 credentials",
+    "uid" : "8a7fcd78c39303ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464468661,
+      "stop" : 1620464468670,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai4444@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.2 credentials",
+    "uid" : "921c844e49ae5740",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620451199193,
+      "stop" : 1620451199194,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai5555@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify Login with Valid Credentials",
+    "uid" : "af6cf0c490c2b41a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620451199189,
+      "stop" : 1620451199189,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.2 credentials",
+    "uid" : "57407b10805289af",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464270227,
+      "stop" : 1620464270237,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai5555@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.1 credentials",
+    "uid" : "b3df4e549af98dc2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620464157876,
+      "stop" : 1620464229087,
+      "duration" : 71211
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai4444@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.1 credentials",
+    "uid" : "6544042843bcc048",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464270218,
+      "stop" : 1620464270224,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai4444@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify Login with Valid Credentials",
+    "uid" : "fe963ab95f1267f3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620451221204,
+      "stop" : 1620451221205,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Valid Credentials",
+    "uid" : "4b1d173409e6b224",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464270214,
+      "stop" : 1620464270216,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.2 credentials",
+    "uid" : "34b6a0670878940e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620451243347,
+      "stop" : 1620451265334,
+      "duration" : 21987
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai5555@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify Login with Valid Credentials",
+    "uid" : "f29afc4b8189b981",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464468658,
+      "stop" : 1620464468658,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Valid Credentials",
+    "uid" : "ddd2d44ada04ce49",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464157872,
+      "stop" : 1620464157873,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.1 credentials",
+    "uid" : "17f01272694b26a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620451199191,
+      "stop" : 1620451199192,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai4444@gmail.com", "shanku12345#" ]
+  }, {
+    "name" : "Verify login with existing email and password",
+    "uid" : "d006dbd9e4ab537f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620451265336,
+      "stop" : 1620451265337,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify login with existing email and password",
+    "uid" : "bf60158367a36174",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1620464468681,
+      "stop" : 1620464468682,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login with Invalid Credentials -- @1.1 credentials",
+    "uid" : "a103d4397782d1d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1620451221207,
+      "stop" : 1620451243343,
+      "duration" : 22136
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "shankubisai4444@gmail.com", "shanku12345#" ]
+  } ]
+}

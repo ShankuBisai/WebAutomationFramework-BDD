@@ -1,0 +1,172 @@
+{
+  "uid" : "b3df4e549af98dc2",
+  "name" : "Verify Login with Invalid Credentials -- @1.1 credentials",
+  "fullName" : "LoginPage Validation: Verify Login with Invalid Credentials",
+  "historyId" : "520ace4a85fda4d2d41e9599fab078c0",
+  "time" : {
+    "start" : 1620464157876,
+    "stop" : 1620464229087,
+    "duration" : 71211
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"C:\\Users\\bisai\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\bisai\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 68, in userErrorMessage\n    context.ts.mark(\"userErrorMessage\", result, \"Error Message is Displayed\")\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\utilities\\teststatus.py\", line 68, in mark\n    assert True == False\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"C:\\Users\\bisai\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\bisai\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 68, in userErrorMessage\n    context.ts.mark(\"userErrorMessage\", result, \"Error Message is Displayed\")\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\utilities\\teststatus.py\", line 68, in mark\n    assert True == False\n",
+    "steps" : [ {
+      "name" : "Given User is on HomePage",
+      "time" : {
+        "start" : 1620464162659,
+        "stop" : 1620464162660,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When User clicks on the Sign In link",
+      "time" : {
+        "start" : 1620464162660,
+        "stop" : 1620464164578,
+        "duration" : 1918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User enters \"shankubisai4444@gmail.com\" as email",
+      "time" : {
+        "start" : 1620464164580,
+        "stop" : 1620464164933,
+        "duration" : 353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User clicks Next Button",
+      "time" : {
+        "start" : 1620464164933,
+        "stop" : 1620464165067,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User enters \"shanku12345#\" as password",
+      "time" : {
+        "start" : 1620464165068,
+        "stop" : 1620464172187,
+        "duration" : 7119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User clicks Sign In Button",
+      "time" : {
+        "start" : 1620464172187,
+        "stop" : 1620464180251,
+        "duration" : 8064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then error message \"This account cannot be found. Please use a different account or sign up for a new account..\" is displayed",
+      "time" : {
+        "start" : 1620464180253,
+        "stop" : 1620464228827,
+        "duration" : 48574
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\bisai\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\bisai\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\steps\\loginpagesteps\\loginpagesteps.py\", line 68, in userErrorMessage\n    context.ts.mark(\"userErrorMessage\", result, \"Error Message is Displayed\")\n  File \"C:\\Users\\bisai\\OneDrive - Kudelski Group\\Desktop\\Desktop\\Study\\4Selenium with Python(letskodeit)\\WebTestFrameworkBDD\\utilities\\teststatus.py\", line 68, in mark\n    assert True == False\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage Validation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "shankubisai4444@gmail.com"
+  }, {
+    "name" : "password",
+    "value" : "shanku12345#"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "b3df4e549af98dc2.json",
+  "parameterValues" : [ "shankubisai4444@gmail.com", "shanku12345#" ]
+}

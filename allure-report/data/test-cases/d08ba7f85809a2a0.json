@@ -1,0 +1,397 @@
+{
+  "uid" : "d08ba7f85809a2a0",
+  "name" : "Verify Login with Invalid Credentials -- @1.2 credentials",
+  "fullName" : "LoginPage Validation: Verify Login with Invalid Credentials",
+  "historyId" : "acc7b0f29e3b6914511e55eaeaf402c7",
+  "time" : {
+    "start" : 1620464468673,
+    "stop" : 1620464468679,
+    "duration" : 6
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given User is on HomePage",
+      "time" : {
+        "start" : 1620464468679,
+        "stop" : 1620464468679,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When User clicks on the Sign In link",
+      "time" : {
+        "start" : 1620464468679,
+        "stop" : 1620464468679,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User enters \"shankubisai5555@gmail.com\" as email",
+      "time" : {
+        "start" : 1620464468679,
+        "stop" : 1620464468679,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User clicks Next Button",
+      "time" : {
+        "start" : 1620464468679,
+        "stop" : 1620464468679,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User enters \"shanku12345#\" as password",
+      "time" : {
+        "start" : 1620464468679,
+        "stop" : 1620464468679,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User clicks Sign In Button",
+      "time" : {
+        "start" : 1620464468679,
+        "stop" : 1620464468679,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then error message \"This account cannot be found. Please use a different account or sign up for a new account..\" is displayed",
+      "time" : {
+        "start" : 1620464468679,
+        "stop" : 1620464468679,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "LoginPage Validation"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "shankubisai5555@gmail.com"
+  }, {
+    "name" : "password",
+    "value" : "shanku12345#"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57407b10805289af",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1620464270227,
+        "stop" : 1620464270237,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "34b6a0670878940e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1620451243347,
+        "stop" : 1620451265334,
+        "duration" : 21987
+      }
+    }, {
+      "uid" : "921c844e49ae5740",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1620451199193,
+        "stop" : 1620451199194,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 8,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "10ac27a71d8874e6",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/34/allure/#testresult/10ac27a71d8874e6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620464468673,
+          "stop" : 1620464468679,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "8993b41b1f477add",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/33/allure/#testresult/8993b41b1f477add",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620464468673,
+          "stop" : 1620464468679,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "24fcc0b04a867254",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/32/allure/#testresult/24fcc0b04a867254",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620464468673,
+          "stop" : 1620464468679,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "a4764c800d20b662",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/31/allure/#testresult/a4764c800d20b662",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620464468673,
+          "stop" : 1620464468679,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "b44e68ccce2b0a0a",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/30/allure/#testresult/b44e68ccce2b0a0a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620464468673,
+          "stop" : 1620464468679,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "ff16c72b43b93444",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/29/allure/#testresult/ff16c72b43b93444",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620464468673,
+          "stop" : 1620464468679,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "895f78f12f827c79",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/28/allure/#testresult/895f78f12f827c79",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620464270227,
+          "stop" : 1620464270237,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "5b61fdb6155ef852",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/27/allure/#testresult/5b61fdb6155ef852",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "9542f769be6c7cf1",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/26/allure/#testresult/9542f769be6c7cf1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "c700c780c1154573",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/25/allure/#testresult/c700c780c1154573",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "2b158ff914c5b463",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/24/allure/#testresult/2b158ff914c5b463",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "a28cc2ce5b599715",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/23/allure/#testresult/a28cc2ce5b599715",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "6769826cde5ef52",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/22/allure/#testresult/6769826cde5ef52",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "7e36ca44b5391219",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/21/allure/#testresult/7e36ca44b5391219",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "911b156f9b875951",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/20/allure/#testresult/911b156f9b875951",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "7ed127d907e2971c",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/19/allure/#testresult/7ed127d907e2971c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620451243347,
+          "stop" : 1620451265334,
+          "duration" : 21987
+        }
+      }, {
+        "uid" : "bd5a2bd77e807eed",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/18/allure/#testresult/bd5a2bd77e807eed",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620423623829,
+          "stop" : 1620423647830,
+          "duration" : 24001
+        }
+      }, {
+        "uid" : "15894a9aa1f70f5f",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/17/allure/#testresult/15894a9aa1f70f5f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620423491267,
+          "stop" : 1620423515325,
+          "duration" : 24058
+        }
+      }, {
+        "uid" : "5283b439a633c276",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/14/allure/#testresult/5283b439a633c276",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620422678753,
+          "stop" : 1620422700410,
+          "duration" : 21657
+        }
+      }, {
+        "uid" : "98f5181aa277c2a9",
+        "reportUrl" : "http://localhost:8080/job/WebTestFrameworkBDD/13/allure/#testresult/98f5181aa277c2a9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1620422261342,
+          "stop" : 1620422282053,
+          "duration" : 20711
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "d08ba7f85809a2a0.json",
+  "parameterValues" : [ "shankubisai5555@gmail.com", "shanku12345#" ]
+}

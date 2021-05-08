@@ -1,0 +1,41 @@
+[ {
+  "uid" : "d08ba7f85809a2a0",
+  "name" : "Verify Login with Invalid Credentials -- @1.2 credentials",
+  "time" : {
+    "start" : 1620464468673,
+    "stop" : 1620464468679,
+    "duration" : 6
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bf60158367a36174",
+  "name" : "Verify login with existing email and password",
+  "time" : {
+    "start" : 1620464468681,
+    "stop" : 1620464468682,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8a7fcd78c39303ee",
+  "name" : "Verify Login with Invalid Credentials -- @1.1 credentials",
+  "time" : {
+    "start" : 1620464468661,
+    "stop" : 1620464468670,
+    "duration" : 9
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f29afc4b8189b981",
+  "name" : "Verify Login with Valid Credentials",
+  "time" : {
+    "start" : 1620464468658,
+    "stop" : 1620464468658,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
