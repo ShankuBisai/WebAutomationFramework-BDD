@@ -1,0 +1,190 @@
+<testsuite name="loginpage.LoginPage Validation" tests="3" errors="0" failures="0" skipped="1" time="34.096311" timestamp="2021-05-07T00:21:06.259404" hostname="WIN5CG0400302"><testcase classname="loginpage.LoginPage Validation" name="Verify Login with Valid Credentials" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+
+  @smoke
+  Scenario: Verify Login with Valid Credentials
+    Given User is on HomePage ... skipped in 0.000s
+    When User clicks on the Sign In link ... skipped in 0.000s
+    And User enters "shankubisai3333@gmail.com" as email ... skipped in 0.000s
+    And User clicks Next Button ... skipped in 0.000s
+    And User enters "shanku12345#" as password ... skipped in 0.000s
+    And User clicks Sign In Button ... skipped in 0.000s
+    Then Client Home Page is displayed ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="loginpage.LoginPage Validation" name="Verify Login with Invalid Credentials -- @1.1 credentials" status="passed" time="16.784443"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @regression
+  Scenario Outline: Verify Login with Invalid Credentials -- @1.1 credentials
+    Given User is on HomePage ... passed in 0.000s
+    When User clicks on the Sign In link ... passed in 1.313s
+    And User enters "shankubisai4444@gmail.com" as email ... passed in 0.179s
+    And User clicks Next Button ... passed in 0.081s
+    And User enters "shanku12345#" as password ... passed in 7.072s
+    And User clicks Sign In Button ... passed in 8.071s
+    Then error message "This account cannot be found. Please use a different account or sign up for a new account." is displayed ... passed in 0.068s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\bisai\AppData\Local\Programs\Python\Python39\Scripts\behave.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 183, in main
+    return run_behave(config)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 127, in run_behave
+    failed = runner.run()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 804, in run
+    return self.run_with_paths()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 824, in run_with_paths
+    return self.run_model()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 626, in run_model
+    failed = feature.run(self)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 321, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1114, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 711, in run
+    if not step.run(runner):
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\steps\loginpagesteps\loginpagesteps.py", line 38, in userEntersPassword
+    context.lp.enterPassword(password)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\pages\actions\loginpage\loginpage.py", line 22, in enterPassword
+    self.sendKeys(password,locator.password)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\base\selenium_driver.py", line 162, in sendKeys
+    print_stack()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\bisai\AppData\Local\Programs\Python\Python39\Scripts\behave.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 183, in main
+    return run_behave(config)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 127, in run_behave
+    failed = runner.run()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 804, in run
+    return self.run_with_paths()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 824, in run_with_paths
+    return self.run_model()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 626, in run_model
+    failed = feature.run(self)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 321, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1114, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 711, in run
+    if not step.run(runner):
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\steps\loginpagesteps\loginpagesteps.py", line 46, in userClickSignIn
+    context.chp=context.lp.clickSignInButton()
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\pages\actions\loginpage\loginpage.py", line 25, in clickSignInButton
+    self.elementClick(locator.signInButton)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\base\selenium_driver.py", line 153, in elementClick
+    print_stack()
+
+]]>
+</system-err></testcase><testcase classname="loginpage.LoginPage Validation" name="Verify Login with Invalid Credentials -- @1.2 credentials" status="passed" time="17.311868"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @regression
+  Scenario Outline: Verify Login with Invalid Credentials -- @1.2 credentials
+    Given User is on HomePage ... passed in 0.000s
+    When User clicks on the Sign In link ... passed in 1.753s
+    And User enters "shankubisai5555@gmail.com" as email ... passed in 0.160s
+    And User clicks Next Button ... passed in 0.080s
+    And User enters "shanku12345#" as password ... passed in 7.178s
+    And User clicks Sign In Button ... passed in 8.072s
+    Then error message "This account cannot be found. Please use a different account or sign up for a new account." is displayed ... passed in 0.069s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out><system-err>
+<![CDATA[
+Captured stderr:
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\bisai\AppData\Local\Programs\Python\Python39\Scripts\behave.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 183, in main
+    return run_behave(config)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 127, in run_behave
+    failed = runner.run()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 804, in run
+    return self.run_with_paths()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 824, in run_with_paths
+    return self.run_model()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 626, in run_model
+    failed = feature.run(self)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 321, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1114, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 711, in run
+    if not step.run(runner):
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\steps\loginpagesteps\loginpagesteps.py", line 38, in userEntersPassword
+    context.lp.enterPassword(password)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\pages\actions\loginpage\loginpage.py", line 22, in enterPassword
+    self.sendKeys(password,locator.password)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\base\selenium_driver.py", line 162, in sendKeys
+    print_stack()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\bisai\AppData\Local\Programs\Python\Python39\Scripts\behave.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 183, in main
+    return run_behave(config)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\__main__.py", line 127, in run_behave
+    failed = runner.run()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 804, in run
+    return self.run_with_paths()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 824, in run_with_paths
+    return self.run_model()
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\runner.py", line 626, in run_model
+    failed = feature.run(self)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 321, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1114, in run
+    failed = scenario.run(runner)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 711, in run
+    if not step.run(runner):
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "c:\users\bisai\appdata\local\programs\python\python39\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\steps\loginpagesteps\loginpagesteps.py", line 46, in userClickSignIn
+    context.chp=context.lp.clickSignInButton()
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\pages\actions\loginpage\loginpage.py", line 25, in clickSignInButton
+    self.elementClick(locator.signInButton)
+  File "C:\Users\bisai\OneDrive - Kudelski Group\Desktop\Desktop\Study\4Selenium with Python(letskodeit)\WebTestFrameworkBDD\base\selenium_driver.py", line 153, in elementClick
+    print_stack()
+
+]]>
+</system-err></testcase></testsuite>

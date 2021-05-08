@@ -1,0 +1,21 @@
+<testsuite name="homepage.HomePage Validation" tests="2" errors="0" failures="0" skipped="2" time="0.0" timestamp="2021-05-07T00:20:21.690095" hostname="WIN5CG0400302"><testcase classname="homepage.HomePage Validation" name="The homepage should have correct title" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: The homepage should have correct title
+    Given User go to the site ... skipped in 0.000s
+    Then Page title should be "Zoho - Cloud Software Suite and SaaS Applications for Businesses" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="homepage.HomePage Validation" name="The homepage should have correct url" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: The homepage should have correct url
+    Given User go to the site ... skipped in 0.000s
+    Then URL should be "https://www.zoho.com/" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

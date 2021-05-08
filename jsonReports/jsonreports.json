@@ -1,0 +1,42 @@
+Feature: HomePage Validation # feature/homepage.feature:1
+
+  Scenario: The homepage should have correct title                                               # feature/homepage.feature:3
+    Given User go to the site                                                                    # None
+    Then Page title should be "Zoho - Cloud Software Suite and SaaS Applications for Businesses" # None
+
+  Scenario: The homepage should have correct url  # feature/homepage.feature:8
+    Given User go to the site                     # None
+    Then URL should be "https://www.zoho.com/"    # None
+
+Feature: LoginPage Validation # feature/loginpage.feature:1
+
+  @smoke
+  Scenario: Verify Login with Valid Credentials          # feature/loginpage.feature:4
+    Given User is on HomePage                            # None
+    When User clicks on the Sign In link                 # None
+    And User enters "shankubisai3333@gmail.com" as email # None
+    And User clicks Next Button                          # None
+    And User enters "shanku12345#" as password           # None
+    And User clicks Sign In Button                       # None
+    Then Client Home Page is displayed                   # None
+
+  @regression
+  Scenario Outline: Verify Login with Invalid Credentials -- @1.1 credentials                                                    # feature/loginpage.feature:26
+    Given User is on HomePage                                                                                                    # steps/loginpagesteps/loginpagesteps.py:8
+    When User clicks on the Sign In link                                                                                         # steps/loginpagesteps/loginpagesteps.py:16
+    And User enters "shankubisai4444@gmail.com" as email                                                                         # steps/loginpagesteps/loginpagesteps.py:23
+    And User clicks Next Button                                                                                                  # steps/loginpagesteps/loginpagesteps.py:29
+    And User enters "shanku12345#" as password                                                                                   # steps/loginpagesteps/loginpagesteps.py:36
+    And User clicks Sign In Button                                                                                               # steps/loginpagesteps/loginpagesteps.py:44
+    Then error message "This account cannot be found. Please use a different account or sign up for a new account." is displayed # steps/loginpagesteps/loginpagesteps.py:63
+
+  @regression
+  Scenario Outline: Verify Login with Invalid Credentials -- @1.2 credentials                                                    # feature/loginpage.feature:27
+    Given User is on HomePage                                                                                                    # steps/loginpagesteps/loginpagesteps.py:8
+    When User clicks on the Sign In link                                                                                         # steps/loginpagesteps/loginpagesteps.py:16
+    And User enters "shankubisai5555@gmail.com" as email                                                                         # steps/loginpagesteps/loginpagesteps.py:23
+    And User clicks Next Button                                                                                                  # steps/loginpagesteps/loginpagesteps.py:29
+    And User enters "shanku12345#" as password                                                                                   # steps/loginpagesteps/loginpagesteps.py:36
+    And User clicks Sign In Button                                                                                               # steps/loginpagesteps/loginpagesteps.py:44
+    Then error message "This account cannot be found. Please use a different account or sign up for a new account." is displayed # steps/loginpagesteps/loginpagesteps.py:63
+
